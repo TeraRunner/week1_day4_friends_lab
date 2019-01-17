@@ -117,6 +117,7 @@ def test_money_lending
   result_2 = money_lending(@person1, @person2, 1)
   assert_equal(3, result_2)
 end
+
   # 8. Find the set of everyone's favourite food joined together
   # (hint: concatenate the favourites/snack arrays together)
 

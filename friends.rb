@@ -20,7 +20,7 @@ end
 def remove_friend(person, name)
   person[:friends][0].delete(name)
 end
-
+ 
 def total_money(people)
   total_cash = 0
   for person in people
