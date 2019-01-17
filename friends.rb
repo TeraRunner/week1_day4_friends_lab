@@ -12,3 +12,7 @@ def get_favourite_food(person, snack)
   end
   return true
 end
+
+def add_friend(person,name)
+  person[:friends]<<name
+end
